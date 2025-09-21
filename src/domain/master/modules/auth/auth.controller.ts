@@ -13,7 +13,7 @@ import { File as MulterFile } from 'multer';
 import { AuthService } from './auth.service';
 import { LoginDto } from './dto/login.dto';
 import { PermissionGuard } from './guards/permission.guard';
-import { RequirePermission } from 'src/shared/decorators/permission.decorator';
+import { RequirePermission } from '@/shared/decorators/permission.decorator';
 import { CommonRequestCustom } from '@/domain/master/swaggers/common.dto';
 import { Auth } from '@/domain/master/decorators/auth.decorator';
 import { FileInterceptor } from '@nestjs/platform-express';

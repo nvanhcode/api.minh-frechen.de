@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ALL_MODELS } from './models';
-import { setupConfigTypeOrm } from 'src/shared/config/typeorm.config';
+import { setupConfigTypeOrm } from '@/shared/config/typeorm.config';
 import { ConstDomain } from './const.domain';
 import { AuthModule } from './modules/auth/auth.module';
 
