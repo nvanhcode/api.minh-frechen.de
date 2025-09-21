@@ -1,5 +1,5 @@
 {
-  "name": "minh-frechen.de",
+  "name": "api.minh-frechen.de",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -12,7 +12,7 @@
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
-    "vercel-build": "npm run build",
+    "vercel-build": "nest build",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "migration:generate.master": "typeorm migration:generate -d dist/domain/master/typeorm.config.js",
     "migration:run.master": "typeorm migration:run -d dist/domain/master/typeorm.config.js",
